@@ -1,0 +1,17 @@
+{
+    "name": "math-expression-parser",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "minify": "minify src/index.js --out-file dist/index.min.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "description": "",
+    "devDependencies": {
+        "babel-minify": "^0.5.2",
+        "jest": "^29.7.0"
+    }
+}
